@@ -8,13 +8,11 @@ Creates a database of Spotify tracks and artists.  Creates a set of REST service
 
 ## INSTALL
 
-1. `sqlite3` should be installed somewhere on your system.  For Mac users:  if it's not already present at 
-`/usr/bin/sqlite3`, try installing with [HomeBrew](https://formulae.brew.sh/formula/sqlite).
-2. Choose a location for your Sqlite3 DB file.  You can bring one into existnece simply with `sqlite3 myDB.db` and quitting (type`.quit`).
-3. In the file `config/config.json` update the value for the `storage` key to the absolute path of your sqlite3 DB file.
-4. Create a `.env` file in the root of the project.  The expected contents are in a later section.
-5. Build the project: `npm i`
-6. Create the database tables: `npm run migrate`
+1. login to your mysql database and create new database.
+2. In the file `config/config.json` update the value for the `username`, `password`, `database`, 'host' key according to your newly created mysql database.
+3. Create a `.env` file in the root of the project.  The expected contents are in a later section.
+4. Build the project: `npm i`
+5. Create the database tables: `npm run migrate`
 
 ## RUNNING
 
