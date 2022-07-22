@@ -1,0 +1,7 @@
+{
+  "username": "root",
+  "password": null,
+  "database": "spotify_api",
+  "host": "localhost",
+  "dialect": "mysql"
+}
