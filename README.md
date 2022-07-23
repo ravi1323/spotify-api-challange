@@ -1,11 +1,3 @@
-# spotify-track-artist
-
-Creates a database of Spotify tracks and artists.  Creates a set of REST services for adding tracks and querying the database populated from the Spotify API.
-
-* Code repository: [https://github.com/gregsandell/spotify-track-artist](https://github.com/gregsandell/spotify-track-artist)
-* Accompanying video: [https://youtu.be/mnME9QfN2JA](https://youtu.be/mnME9QfN2JA)
-* Challenge instructions:  see the `doc` directory
-
 ## INSTALL
 
 1. login to your mysql database and create new database.
